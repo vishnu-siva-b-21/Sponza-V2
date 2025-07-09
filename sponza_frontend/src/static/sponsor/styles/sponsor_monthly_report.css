@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #4e73df;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h2 {
+  text-align: center;
+  color: #004080;
+  margin: 20px 0;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+table {
+  width: 80%;
+  max-width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background: white;
+  margin: 0 auto;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px;
+  border: 1px solid #cce7ff;
+}
+
+th {
+  background-color: #004080;
+  color: white;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background-color: #e6f2ff;
+}
+
+tr:hover {
+  background-color: #cce7ff;
+  transition: 0.3s;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.card {
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chart-area {
+  height: auto;
+  width: 100%;
+}
+
+canvas {
+  width: 100% !important;
+}
+
+#myAreaChart {
+  margin-top: -2vh;
+}
+
+.advertisements {
+  text-align: center;
+  margin: 30px auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #004080;
+}
+
+.advertisements span {
+  font-size: 2rem;
+  color: #ff6600;
+}
+
+.expired {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+
+  border: 2px dashed #ff4d4d;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #ffffff, #f7f7f7);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+.expired-icon {
+  font-size: 6rem;
+  color: #ff4d4d;
+  margin-bottom: 1rem;
+}
+
+.expired-title {
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.expired-description {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+}
